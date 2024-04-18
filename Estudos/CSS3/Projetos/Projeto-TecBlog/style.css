@@ -1,54 +1,109 @@
-body {
-    background-color: #E6E6E6;
-    padding: 0px;
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6E6E6;
 }
 
-#title1 {
-    font-size: 40px;
-}
-
-#topo{
+#topo {
     background-color: #F7B600;
     padding: 15px;
     text-align: center;
 }
 
-#nav {
-    margin-bottom: 13px;
+#nav, #title1 {
+    padding: 10px;
 }
 
-#nav > a {
+#title1 {
+    font-size: 2.5em;
+}
+
+#nav>a {
     padding: 5px 10px;
     text-decoration: none;
 }
 
-#nav > a:link,
-#nav > a:visited {
+#nav>a:link,
+#nav>a:visited {
     color: white;
 }
 
-#nav > a:hover {
+#nav>a:hover {
     background: white;
     color: #F7B600;
     padding: 10px;
     margin: 5px;
 }
 
-#lateral{
+
+#principal {
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#area-post {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#lateral {
     width: 240px;
     float: right;
 }
 
-#conteudo-lateral {
+.conteudo-lateral {
     background: white;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-#post1 {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: white;
+.lateras {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+h2 {
+    color: #F7B82F;
+}
+
+h3 {
+    color: #565656;
+    background-color: #ccc;
+    font-weight: 550;
+    padding: 5px;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #F7B600;
+}
+
+a:hover {
+    color: #F7B600;
+    text-decoration: underline;
 }
