@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-r">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Links</title>
+
+    <style>
+
+        a {
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        /*Links não visitados*/
+        a:link, a:visited {  /*Junção de link com visited a partir da virgula*/
+            color: darkgoldenrod;
+        }
+        
+        /*Links Visitados
+        a:visited{
+            color: darkgoldenrod;
+        } 
+        */
+
+        /*Links Hover, Passa o cursosr sobre o link*/
+        a:hover{
+            color: darkred;
+            background: lightgrey;
+        }
+
+        /*Links Ativos, quando clicado*/
+        a:active{
+            color:darkturquoise;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <a href="https://www.google.com/">Google</a> |
+
+    <a href="https://www.tecmundo.com.br/">TecMundo</a> |
+
+    <a href="https://www.megacurioso.com.br/">MegaCurioso</a> |
+
+</body>
+</html>
