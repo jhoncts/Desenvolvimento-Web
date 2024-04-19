@@ -1,20 +1,24 @@
+/* Resetar margin e padding dos elementos */
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* Estilos do corpo */
 body {
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #E6E6E6;
 }
 
+/* Estilos da área superior */
 #topo {
     background-color: #F7B600;
     padding: 15px;
     text-align: center;
 }
 
+/* Estilos da navegação e título */
 #nav, #title1 {
     padding: 10px;
 }
@@ -23,41 +27,45 @@ body {
     font-size: 2.5em;
 }
 
-#nav>a {
+/* Estilos dos links de navegação */
+#nav > a {
     padding: 5px 10px;
     text-decoration: none;
 }
 
-#nav>a:link,
-#nav>a:visited {
+#nav > a:link,
+#nav > a:visited {
     color: white;
 }
 
-#nav>a:hover {
+#nav > a:hover {
     background: white;
     color: #F7B600;
     padding: 10px;
     margin: 5px;
 }
 
-
+/* Estilos da área principal */
 #principal {
     width: 920px;
     margin: 0px auto;
     padding: 15px;
 }
 
+/* Estilos da área de postagem */
 #area-post {
     width: 660px;
     float: left;
 }
 
+/* Estilos do post */
 .post {
     padding: 20px;
     margin-bottom: 20px;
     background: white;
 }
 
+/* Estilos da área lateral */
 #lateral {
     width: 240px;
     float: right;
@@ -75,6 +83,7 @@ body {
     border-bottom: 1px dotted #ccc;
 }
 
+/* Estilos do rodapé */
 #footer {
     clear: both;
     text-align: center;
@@ -82,6 +91,7 @@ body {
     background-color: #ccc;
 }
 
+/* Estilos dos títulos */
 h2 {
     color: #F7B82F;
 }
@@ -93,8 +103,8 @@ h3 {
     padding: 5px;
 }
 
+/* Estilos dos links */
 a {
-    padding: 5px 10px;
     text-decoration: none;
 }
 
@@ -106,4 +116,12 @@ a:visited {
 a:hover {
     color: #F7B600;
     text-decoration: underline;
+}
+
+/* Estilos da data */
+.data {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
 }
