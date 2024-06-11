@@ -1,0 +1,46 @@
+/*****************************
+Latoyts Fixos */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #C4EEF2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#marca {
+    height: 100px;
+    background: #025159;
+    text-align: center;
+    line-height: 100px;
+}
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #7AB8BF;
+}
+
+#navagecao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #3E848C;
+    padding: 5px;
+}
